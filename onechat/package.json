@@ -1,0 +1,31 @@
+{
+  "name": "reporting-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reporting-service.js",
+  "scripts": {
+    "reinstallModels": "npm remove models && npm i -S git+ssh://git@gitlab.com:onechatai/models.git",
+    "debug": "claudia-local-api --api-module reporting-service.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/onechatai/reporting-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/onechatai/reporting-service/issues"
+  },
+  "homepage": "https://gitlab.com/onechatai/reporting-service#README",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "claudia-api-builder": "^4.1.1",
+    "faker": "^4.1.0",
+    "firebase-admin": "^6.4.0",
+    "models": "git+https://gitlab.com/onechatai/models.git",
+    "moment": "^2.23.0",
+    "mongoose": "^5.3.14",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}

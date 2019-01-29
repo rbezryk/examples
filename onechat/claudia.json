@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "<role>",
+    "name": "<name>",
+    "region": "<region>"
+  },
+  "api": {
+    "id": "<id>",
+    "module": "<module_name>"
+  }
+}
